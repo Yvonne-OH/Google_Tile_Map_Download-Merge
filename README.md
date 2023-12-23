@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="Logo/Upenn.jpg" alt="Markdownify" width="200"></a>
+  <img src="Logo/Upenn.jpg" alt="Markdownify" width="600"></a>
   <br>
   Markdownify
   <br>
