@@ -26,7 +26,7 @@ def requestImage(api_key,picHeight, picWidth, zoom, scale, maptype, lat, lng, ro
 
 
 def download_map_tiles(api_key, northWestLat, northWestLng, southEastLat, southEastLng, scale=2, maptype="satellite",
-                       zoom=20, picHeight=640, picWidth=640):
+                       zoom=18, picHeight=640, picWidth=640):
     mapHeight = 256
     mapWidth = 256
     xScale = math.pow(2, zoom) / (picWidth / mapWidth)
