@@ -1,21 +1,54 @@
-MIT License
 
-Copyright (c) [2023] [Zhanqian Wu]
+<h1 align="center">
+  <br>
+  <img src="Logo/Upenn.jpg" alt="Markdownify" width="600"></a>
+  <br>
+</h1>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+<h4 align="center">The provided Python script utilizes various modules for GIS mapping, image processing, and merging map tiles.</h4>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#license">License</a>
+</p>
+
+![screenshot](merge.jpg)
+
+## Key Features
+
+* Map Tile Downloading:
+  - Utilizes the Tile_Map_Download module to download map tiles within a specified geographic area defined by bounding box coordinates.
+* GIS Calculation:
+  - Employs the Gis_Calculate module to calculate distances and midpoint coordinates based on the provided bounding box.
+* Map Tile Merging:
+  - Uses the Tile_Map_Merge module to merge the downloaded map tiles into a single image.
+* Image Processing:
+  - Utilizes the Image_Processing module to enhance the merged image by adding a center marker, a white border, filled corner rectangles, and overlaying logos.
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and requirements installed on your computer. 
+From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/Yvonne-OH/Google_Tile_Map_Download-Merge.git
+
+# Go into the repository
+$ cd Google_Tile_Map_Download-Merge
+
+# Install dependencies
+$ pip install geopy numpy opencv-python tqdm
+
+# Run the app
+$ Your API KEY ="**********************"
+```
+
+## License
+
+MIT
+
+---
+
