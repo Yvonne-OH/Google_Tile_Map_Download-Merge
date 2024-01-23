@@ -10,11 +10,28 @@ import shutil
 
 if __name__ == '__main__':
     # Bounding box for area to be scanned. AreaID is added to file name.
+    """
     AreaID = "Wissahickon Transportation Center to Hunting Park Station"
 
     northWestLat, northWestLng = 40.025, -75.216
     southEastLat, southEastLng = 40.005, -75.141
-    #southEastLat, southEastLng = 40.07, -75.07 40.015 -75.216
+    """
+
+    """
+    AreaID = "Hunting Park Station to Frankford Transportation Center"
+
+    northWestLat, northWestLng = 40.040, -75.149
+    southEastLat, southEastLng = 40.018, -75.070
+    """
+
+    AreaID = "Frankford Transportation Center to Neshaminy Mall"
+
+    northWestLat, northWestLng = 40.149, -75.071
+    southEastLat, southEastLng = 40.000, -74.92
+
+
+
+
 
     # Your API request
     api_key = "AIzaSyCW7tBPP3eWvJMFG3Y7QI_LCY6hZj31MtU"
